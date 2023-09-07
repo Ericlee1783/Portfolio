@@ -1,12 +1,13 @@
 * {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
-    background-color:rgb(105, 142, 197);
+    /* background-color:rgb(255, 255, 255); */
 }
 
 ul {
     text-align: right;
     background-color: rgb(255, 255, 255);
+    margin-bottom: 0;
 }
 
 .navbar h1 {
@@ -18,7 +19,7 @@ ul {
 
 .navbar {
     font-size: large;
-    border-bottom: solid 3px;
+    /* border-bottom: solid 3px; */
     background-color: rgb(255, 255, 255);
 }
 
@@ -26,13 +27,27 @@ li {
     display: inline;
     margin-left: 60px;
     background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+li > a {
+    color: black;
 }
 
 .intro {
     text-align: center;
     font-size: 30px;
     margin-top: 50px;
+    background-color: rgb(105, 142, 197);
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block; 
 }
+
+.intro, h2 {
+    margin-top: 0;
+}
+
 
 .intro p {
     margin-top:100px;
@@ -44,6 +59,10 @@ li {
     border-radius: 25px;
     position: relative;
     top: 30px;
+    background-color: rgb(105, 142, 197);
+    display: flex;
+    flex-wrap: wrap;
+    display: block; 
 }
 
 .intro p:hover {
@@ -102,57 +121,30 @@ li {
     font-size: 30px;
     top:-230px;
     position: relative;
+    background-color: rgb(105, 142, 197);
+}
+
+.contactme {
+    background-color: rgb(105, 142, 197);
+    text-align: center;
+}
+
+.contactme > li > a {
+    color: white;
+    background-color: rgb(105, 142, 197);
+    display:block;
+    margin-right: 40px;
 }
 
 
-
-
-
-/* .feedback-input {
-    color:rgb(255, 255, 255);
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight:500;
-    font-size: 18px;
-    border-radius: 5px;
-    line-height: 22px;
-    background-color: transparent;
-    border:2px solid #ffffff;
-    transition: all 0.3s;
-    padding: 13px;
-    margin-bottom: 15px;
-    width:50%;
-    box-sizing: border-box;
-    outline:0;
-  }
-  
-  .feedback-input:focus { border:2px solid #f08e8e; }
-  
-  textarea {
-    height: 100px;
-    line-height: 150%;
-    resize:vertical;
-  }
-  
-  [type="submit"] {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    width: 50%;
-    background-color:#ffffff;
-    border-radius:5px;
-    border:0;
-    cursor:pointer;
-    color:black;
-    font-size:24px;
-    padding-top:10px;
-    padding-bottom:10px;
-    transition: all 0.3s;
-    margin-top:-400px;
-    font-weight:700;
-    text-align: center;
-  }
-  [type="submit"]:hover { background:#f08e8e; } */
+body {
+    margin: 0;
+}
 
 
 footer {
     text-align: center;
-    margin-top: -100px;;
+    margin-top: -230px;;
+    background-color: rgb(105, 142, 197);
+    padding-top: 50px;
   }
