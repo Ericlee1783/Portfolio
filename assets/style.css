@@ -15,6 +15,7 @@ ul {
     margin-left: 60px;
     background-color: rgb(255, 255, 255);
     color: black;
+    margin-top: 0px;
 }
 
 .navbar {
@@ -23,10 +24,8 @@ ul {
     background-color: rgb(255, 255, 255);
 }
 
-
-
 li {
-    display: inline;
+    display: inline-block;
     margin-left: 60px;
     background-color: rgb(255, 255, 255);
     color: black;
@@ -145,9 +144,9 @@ flex: 1 0 40%;
     color: white;
     background-color: rgb(105, 142, 197);
     display:block;
-    margin-right: 40px;
     font-size: 25px;
     margin-top: 0;
+    text-align: center;
 }
 
 
@@ -160,6 +159,7 @@ body {
 footer {
     text-align: center;
     background-color: rgb(105, 142, 197);
+    padding-top: 10px;
   }
 
 
